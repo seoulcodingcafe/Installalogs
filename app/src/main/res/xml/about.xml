@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+        app:key="command about"
+        app:title="@string/about" />
+    <Preference
+        app:key="command license"
+        app:title="@string/license" />
+    <Preference
+        app:key="command version"
+        app:title="@string/version" />
+    <PreferenceCategory app:title="@string/debug">
+        <Preference
+            app:key="log start time-stamp"
+            app:title="@string/log_start_time_stamp" />
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="force background rescans"
+            app:title="@string/force_background_rescans" />
+        <EditTextPreference
+            android:inputType="number"
+            app:defaultValue="60"
+            app:dependency="force background rescans"
+            app:key="force background rescans minutes"
+            app:title="@string/every_minutes"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreference
+            app:defaultValue="false"
+            app:dependency="force background rescans"
+            app:key="no change notification"
+            app:title="@string/no_change_notification" />
+    </PreferenceCategory>
+</PreferenceScreen>

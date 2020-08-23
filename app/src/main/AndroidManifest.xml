@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.github.installalogs">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="io.github.installalogs.ClassApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cyanea.Light.DarkActionBar">
+
+        <receiver
+            android:name="io.github.installalogs.receivers.ActionPackageRemoved"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.github.installalogs.receivers.ActionPackage"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="io.github.installalogs.receivers.BootCompleted"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="io.github.installalogs.HandlePackageService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="io.github.installalogs.CleanService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="io.github.installalogs.ScanService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="io.github.installalogs.LicenseActivity"
+            android:label="@string/license"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="io.github.installalogs.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

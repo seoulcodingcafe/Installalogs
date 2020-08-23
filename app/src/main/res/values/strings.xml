@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Installalogs</string>
+    <string name="logs">Logs</string>
+    <string name="configuration">Configuration</string>
+    <string name="theme_configuration">Theme configuration</string>
+    <string name="force_background_rescans">Force background rescans</string>
+    <string name="every_minutes">Every (minutes)</string>
+    <string name="about">About</string>
+    <string name="search">Search</string>
+    <string name="manual_scan">manual scan</string>
+    <string name="scanning">Scanning</string>
+    <string name="scanning_deleted_application">Scanning deleted application</string>
+    <string name="detected_changes">Detected changes</string>
+    <string name="detected_new_installation">Detected new installations</string>
+    <string name="no_change_at">No change at</string>
+    <string name="error">Error</string>
+    <string name="service_error">service error</string>
+    <string name="delete_logs">delete logs</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes_delete_logs">Yes, delete logs</string>
+    <string name="no_dont_delete_logs">No, don\&apos;t delete logs</string>
+    <string name="deleted">Deleted.</string>
+    <string name="new_installation">New installation</string>
+    <string name="new_installation_notification">New install notification</string>
+    <string name="no_change">No change</string>
+    <string name="no_change_notification">0 change notification</string>
+    <string name="Service_error">Service error</string>
+    <string name="Service_error_notification">Service error notification</string>
+    <string name="scan_process">Scan process</string>
+    <string name="scan_process_in_background">Scan process in background</string>
+    <string name="clean_process">Clean process</string>
+    <string name="clean_process_in_background">Clean process in background</string>
+    <string name="packageName">Package name</string>
+    <string name="versionCode">Version code</string>
+    <string name="versionName">Version name</string>
+    <string name="date">Date</string>
+    <string name="Close">Close</string>
+    <string name="copy_hash">Copy hash</string>
+    <string name="select_hash">Select hash</string>
+    <string name="select_sha">Select SHA</string>
+    <string name="more">More</string>
+    <string name="md5">MD5</string>
+    <string name="sha">SHA-?</string>
+    <string name="sha1">SHA-1</string>
+    <string name="sha256">SHA-256</string>
+    <string name="sha512">SHA-512</string>
+    <string name="copied">Copied.</string>
+    <string name="New">[New!]</string>
+    <string name="Modified">[Modified]</string>
+    <string name="Deleted">[Deleted]</string>
+    <string name="license">License</string>
+    <string name="version">Version</string>
+    <string name="debug">Debug</string>
+    <string name="log_start_time_stamp">Log start time-stamp</string>
+    <string name="loading">Loading</string>
+    <string name="this_program_is_free_software">
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    </string>
+
+</resources>
