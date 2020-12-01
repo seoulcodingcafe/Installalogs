@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Installalogs</string>
+    <string name="logs">Registros</string>
+    <string name="configuration">Configuração</string>
+    <string name="theme_configuration">Configuração do Tema</string>
+    <string name="force_background_rescans">Forçar auto-examinação em segundo plano</string>
+    <string name="every_minutes">A cada (minutos)</string>
+    <string name="about">Sobre</string>
+    <string name="search">Pesquisar</string>
+    <string name="manual_scan">Analisar manualmente</string>
+    <string name="scanning">Analisando</string>
+    <string name="scanning_deleted_application">Analisando App excluído</string>
+    <string name="detected_changes">Alterações detectadas</string>
+    <string name="detected_new_installation">Detectadas novas instalações</string>
+    <string name="no_change_at">Nenhuma alteração em</string>
+    <string name="error">Erro</string>
+    <string name="service_error">Erro de serviço</string>
+    <string name="delete_logs">Excluir registros</string>
+    <string name="are_you_sure">Tem certeza?</string>
+    <string name="yes_delete_logs">Sim, excluir registros</string>
+    <string name="no_dont_delete_logs">Não, deixar registros</string>
+    <string name="deleted">Excluídos</string>
+    <string name="new_installation">Nova instalação</string>
+    <string name="new_installation_notification">Notificação da nova instalação</string>
+    <string name="no_change">Nenhuma alteração</string>
+    <string name="no_change_notification">Notificação: 0 alterações</string>
+    <string name="Service_error">Erro de serviço</string>
+    <string name="Service_error_notification">Notificação de erro de serviço</string>
+    <string name="scan_process">Processo de análise</string>
+    <string name="scan_process_in_background">Processo de análise em segundo plano</string>
+    <string name="clean_process">Limpar processo</string>
+    <string name="clean_process_in_background">Limpar processo em segundo plano</string>
+    <string name="packageName">Nome do pacote</string>
+    <string name="versionCode">Código da versão</string>
+    <string name="versionName">Nome da versão</string>
+    <string name="date">Data</string>
+    <string name="Close">Terminar </string>
+    <string name="copy_hash">Copiar hash</string>
+    <string name="select_hash">Selecionar hash</string>
+    <string name="select_sha">Selecionar SHA</string>
+    <string name="more">Mais</string>
+    <string name="md5">MD5</string>
+    <string name="sha">SHA-?</string>
+    <string name="sha1">SHA-1</string>
+    <string name="sha256">SHA-256</string>
+    <string name="sha512">SHA-512</string>
+    <string name="copied">Copiado.</string>
+    <string name="New">[Novo!]</string>
+    <string name="Modified">[Modificado]</string>
+    <string name="Deleted">[Excluído]</string>
+    <string name="license">Licença</string>
+    <string name="version">Versão</string>
+    <string name="debug">Depurar</string>
+    <string name="log_start_time_stamp">Hora de início do registro</string>
+    <string name="loading">Carregando</string>
+    <string name="this_program_is_free_software">
+        Este App é de software livre: você pode redistribuí-lo e/ou modificá-lo
+        sob os termos da GNU General Public License, conforme publicada por
+        o Free Software Foundation, seja a versão 3 da Licença, ou
+        (a seu critério) qualquer versão posterior.
+
+        Este App é distribuído na esperança de que seja útil,
+        mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de
+        MERCANTABILIDADE ou ADEQUAÇÃO PARA UM FINAL PARTICULAR.  Veja o
+        GNU General Public License para mais informações.</string>
+
+</resources>
